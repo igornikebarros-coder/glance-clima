@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="192" height="192">
+<defs>
+<radialGradient id="ic_w_clear_day_g8" gradientUnits="userSpaceOnUse" cx="21" cy="20.5" r="15"><stop offset="0" stop-color="#FFF3A6"/><stop offset="1" stop-color="#FFA81C"/></radialGradient>
+</defs>
+<path d="M37.2,24L40.4,24" stroke="#FFC12E" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+<path d="M33.33,33.33L35.6,35.6" stroke="#FFC12E" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+<path d="M24,37.2L24,40.4" stroke="#FFC12E" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+<path d="M14.67,33.33L12.4,35.6" stroke="#FFC12E" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+<path d="M10.8,24L7.6,24" stroke="#FFC12E" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+<path d="M14.67,14.67L12.4,12.4" stroke="#FFC12E" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+<path d="M24,10.8L24,7.6" stroke="#FFC12E" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+<path d="M33.33,14.67L35.6,12.4" stroke="#FFC12E" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+<path d="M14,24a10,10 0 1,0 20,0a10,10 0 1,0 -20,0z" fill="url(#ic_w_clear_day_g8)"/>
+</svg>

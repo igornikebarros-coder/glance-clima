@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Glance Clima</string>
+    <string name="widget_description">Data e clima atual na tela inicial, com fundo transparente.</string>
+    <string name="setup_title">Glance Clima</string>
+    <string name="setup_intro">Escolha de onde vem o clima mostrado no widget.</string>
+    <string name="setup_current">Local atual: %1$s</string>
+    <string name="loc_default">São Paulo (padrão)</string>
+    <string name="loc_gps">Localização aproximada (%1$s, %2$s)</string>
+    <string name="btn_use_location">Usar minha localização</string>
+    <string name="btn_use_default">Usar São Paulo</string>
+    <string name="hint_city">Digite uma cidade</string>
+    <string name="btn_search_city">Buscar cidade</string>
+    <string name="searching">Buscando…</string>
+    <string name="no_results">Nenhuma cidade encontrada.</string>
+    <string name="search_error">Não foi possível buscar agora. Verifique a internet.</string>
+    <string name="locating">Obtendo localização…</string>
+    <string name="location_denied">Permissão negada. Usando o local anterior.</string>
+    <string name="location_failed">Não consegui obter a localização. Tente de novo ou digite uma cidade.</string>
+    <string name="saved">Local salvo. Atualizando o clima…</string>
+    <string name="refreshing">Atualizando o clima…</string>
+    <string name="add_widget_hint">Para usar, segure a tela inicial e adicione o widget “Glance Clima”.</string>
+    <string name="no_calendar">Nenhum app de calendário encontrado.</string>
+    <string name="empty_temp">--°C</string>
+    <string name="preview_date">Seg., 2 de nov.</string>
+    <string name="preview_temp">18°C</string>
+</resources>

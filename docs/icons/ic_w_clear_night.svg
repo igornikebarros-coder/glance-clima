@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="192" height="192">
+<defs>
+<linearGradient id="ic_w_clear_night_g0" gradientUnits="userSpaceOnUse" x1="7" y1="8" x2="39" y2="40"><stop offset="0" stop-color="#8EC0FF"/><stop offset="1" stop-color="#3563E0"/></linearGradient>
+</defs>
+<path d="M21.79,8.05A16,16 0 1,0 38.37,28.45A13.2,13.2 0 0,1 21.79,8.05z" fill="url(#ic_w_clear_night_g0)"/>
+<path d="M34.5,34a1.5,1.5 0 1,0 3,0a1.5,1.5 0 1,0 -3,0z" fill="#DCE9FF" fill-opacity="0.9"/>
+<path d="M38.9,22a1.1,1.1 0 1,0 2.2,0a1.1,1.1 0 1,0 -2.2,0z" fill="#DCE9FF" fill-opacity="0.8"/>
+</svg>

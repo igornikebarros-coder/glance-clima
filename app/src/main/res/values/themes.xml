@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.GlanceClima" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">#2D5FA8</item>
+        <item name="android:colorAccent">#2D5FA8</item>
+        <item name="android:windowBackground">#F6F8FC</item>
+        <item name="android:statusBarColor">#F6F8FC</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.GlanceClima.Transparent" parent="android:Theme.Translucent.NoTitleBar" />
+</resources>

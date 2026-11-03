@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="192" height="192">
+<defs>
+<linearGradient id="ic_w_partly_night_g0" gradientUnits="userSpaceOnUse" x1="5.5" y1="5.5" x2="28.5" y2="28.5"><stop offset="0" stop-color="#8EC0FF"/><stop offset="1" stop-color="#3563E0"/></linearGradient>
+<linearGradient id="ic_w_partly_night_g1" gradientUnits="userSpaceOnUse" x1="0" y1="20.5" x2="0" y2="42"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#BFCBE0"/></linearGradient>
+</defs>
+<path d="M16.42,5.51A11.5,11.5 0 1,0 27.95,20.5A9.6,9.6 0 0,1 16.42,5.51z" fill="url(#ic_w_partly_night_g0)"/>
+<path d="M14.38,42H33.3A7.74,7.74 0 1,0 31.26,26.79A8.6,8.6 0 0,0 14.42,28.24A6.88,6.88 0 1,0 14.38,42z" fill="url(#ic_w_partly_night_g1)"/>
+<path d="M18.08,26.95a3.61,3.61 0 1,0 7.22,0a3.61,3.61 0 1,0 -7.22,0z" fill="#FFFFFF" fill-opacity="0.35"/>
+</svg>

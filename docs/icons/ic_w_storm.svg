@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="192" height="192">
+<defs>
+<linearGradient id="ic_w_storm_g0" gradientUnits="userSpaceOnUse" x1="0" y1="6" x2="0" y2="31"><stop offset="0" stop-color="#D3DBE8"/><stop offset="1" stop-color="#7C8CA8"/></linearGradient>
+<linearGradient id="ic_w_storm_g2" gradientUnits="userSpaceOnUse" x1="0" y1="28" x2="0" y2="46"><stop offset="0" stop-color="#FFE34D"/><stop offset="1" stop-color="#FF9F1A"/></linearGradient>
+</defs>
+<path d="M12.5,31H34.5A9,9 0 1,0 32.13,13.32A10,10 0 0,0 12.55,15A8,8 0 1,0 12.5,31z" fill="url(#ic_w_storm_g0)"/>
+<path d="M16.8,13.5a4.2,4.2 0 1,0 8.4,0a4.2,4.2 0 1,0 -8.4,0z" fill="#FFFFFF" fill-opacity="0.35"/>
+<path d="M26,28.5L19,39H24L22,46L31,35H26.2L28.5,28.5Z" fill="url(#ic_w_storm_g2)"/>
+</svg>

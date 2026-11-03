@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="192" height="192">
+<defs>
+<radialGradient id="ic_w_partly_day_g8" gradientUnits="userSpaceOnUse" cx="14.84" cy="14.48" r="10.8"><stop offset="0" stop-color="#FFF3A6"/><stop offset="1" stop-color="#FFA81C"/></radialGradient>
+<linearGradient id="ic_w_partly_day_g9" gradientUnits="userSpaceOnUse" x1="0" y1="19.5" x2="0" y2="41"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#BFCBE0"/></linearGradient>
+</defs>
+<path d="M27.4,17L30.6,17" stroke="#FFC12E" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+<path d="M24.35,24.35L26.62,26.62" stroke="#FFC12E" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+<path d="M17,27.4L17,30.6" stroke="#FFC12E" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+<path d="M9.65,24.35L7.38,26.62" stroke="#FFC12E" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+<path d="M6.6,17L3.4,17" stroke="#FFC12E" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+<path d="M9.65,9.65L7.38,7.38" stroke="#FFC12E" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+<path d="M17,6.6L17,3.4" stroke="#FFC12E" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+<path d="M24.35,9.65L26.62,7.38" stroke="#FFC12E" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+<path d="M9.8,17a7.2,7.2 0 1,0 14.4,0a7.2,7.2 0 1,0 -14.4,0z" fill="url(#ic_w_partly_day_g8)"/>
+<path d="M17.88,41H36.8A7.74,7.74 0 1,0 34.76,25.79A8.6,8.6 0 0,0 17.92,27.24A6.88,6.88 0 1,0 17.88,41z" fill="url(#ic_w_partly_day_g9)"/>
+<path d="M21.58,25.95a3.61,3.61 0 1,0 7.22,0a3.61,3.61 0 1,0 -7.22,0z" fill="#FFFFFF" fill-opacity="0.35"/>
+</svg>

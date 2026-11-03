@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="192" height="192">
+<defs>
+<linearGradient id="ic_w_fog_g0" gradientUnits="userSpaceOnUse" x1="0" y1="5.25" x2="0" y2="29"><stop offset="0" stop-color="#F2F6FC"/><stop offset="1" stop-color="#A8B7D0"/></linearGradient>
+</defs>
+<path d="M12.6,29H33.5A8.55,8.55 0 1,0 31.25,12.2A9.5,9.5 0 0,0 12.65,13.8A7.6,7.6 0 1,0 12.6,29z" fill="url(#ic_w_fog_g0)"/>
+<path d="M16.68,12.38a3.99,3.99 0 1,0 7.98,0a3.99,3.99 0 1,0 -7.98,0z" fill="#FFFFFF" fill-opacity="0.35"/>
+<path d="M9,34.5H33" stroke="#C5D0E2" stroke-width="2.8" stroke-linecap="round" fill="none"/>
+<path d="M15,39.5H39" stroke="#C5D0E2" stroke-width="2.8" stroke-linecap="round" fill="none"/>
+<path d="M9,44.5H29" stroke="#C5D0E2" stroke-width="2.8" stroke-linecap="round" fill="none"/>
+</svg>
