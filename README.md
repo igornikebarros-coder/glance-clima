@@ -16,7 +16,7 @@ qualquer papel de parede.
 - Clima atual pela [Open-Meteo](https://open-meteo.com/) (gratuita, **sem chave de API**).
 - 9 ícones vetoriais próprios, com visual 3D suave: sol, lua, nuvem, parcialmente nublado
   (dia e noite), chuva, tempestade, neblina e neve. Dia/noite vem do campo `is_day` da API.
-- Atualização automática a cada ~30 minutos (WorkManager).
+- Atualização automática a cada 5 minutos (cadeia de trabalhos únicos do WorkManager, já que o periódico tem mínimo de 15 min).
 - Toque na **data** → abre o app de calendário. Toque no **clima** → atualiza na hora.
 - Redimensionável: o texto e o ícone se ajustam ao tamanho do widget.
 - Local: localização aproximada (permissão `ACCESS_COARSE_LOCATION`), **São Paulo** como
@@ -48,7 +48,7 @@ direto (`adb install -r app-debug.apk` ou pelo gerenciador de arquivos).
 ```
 app/src/main/java/com/igorbarros/glanceclima/
   GlanceWidgetProvider.kt   AppWidgetProvider + RemoteViews, cliques e alarme da meia-noite
-  WeatherWorker.kt          WorkManager (periódico de 30 min e atualização imediata)
+  WeatherWorker.kt          WorkManager (cadeia de 5 min e atualização imediata)
   WeatherApi.kt             Open-Meteo: clima atual e busca de cidades
   WeatherIcons.kt           código WMO + is_day → ícone
   DateFormatter.kt          data curta em pt-BR
@@ -65,7 +65,7 @@ tools/render_preview.py     gera a imagem de pré-visualização (precisa do Chr
 - A localização é lida só quando você toca em "Usar minha localização" (sem permissão de
   localização em segundo plano); as coordenadas ficam salvas até você trocar. Se você viajar,
   atualize o local pelo app.
-- A atualização a cada 30 min é feita pelo sistema e pode atrasar com economia de bateria.
+- A atualização a cada 5 min é agendada pelo sistema (WorkManager) e só roda com internet; em modo Soneca (Doze) ou economia de bateria ela pode atrasar bastante e se agrupar em janelas de manutenção. Com o aparelho em uso, o intervalo é de ~5 min.
 - O widget mostra apenas o clima atual (sem previsão e sem eventos da agenda).
 - Em Androids anteriores ao 12, o tamanho do ícone não acompanha o redimensionamento do widget.
 

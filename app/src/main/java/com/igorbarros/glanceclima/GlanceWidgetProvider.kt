@@ -17,18 +17,18 @@ import java.util.Calendar
 class GlanceWidgetProvider : AppWidgetProvider() {
 
     override fun onEnabled(context: Context) {
-        WeatherWorker.schedulePeriodic(context)
+        WeatherWorker.ensureScheduled(context)
         scheduleMidnight(context)
     }
 
     override fun onDisabled(context: Context) {
-        WeatherWorker.cancelPeriodic(context)
+        WeatherWorker.cancelAll(context)
         cancelMidnight(context)
     }
 
     override fun onUpdate(context: Context, manager: AppWidgetManager, ids: IntArray) {
         ids.forEach { manager.updateAppWidget(it, buildViews(context, manager.getAppWidgetOptions(it))) }
-        WeatherWorker.schedulePeriodic(context)
+        WeatherWorker.ensureScheduled(context)
         scheduleMidnight(context)
         val w = Prefs.weather(context)
         if (w == null || System.currentTimeMillis() - w.updatedAt > STALE_MS) WeatherWorker.refreshNow(context)
@@ -53,7 +53,7 @@ class GlanceWidgetProvider : AppWidgetProvider() {
                 if (hasWidgets(context)) {
                     updateAll(context)
                     scheduleMidnight(context)
-                    WeatherWorker.schedulePeriodic(context)
+                    WeatherWorker.ensureScheduled(context)
                 }
             }
         }
@@ -62,7 +62,7 @@ class GlanceWidgetProvider : AppWidgetProvider() {
     companion object {
         const val ACTION_REFRESH = "com.igorbarros.glanceclima.REFRESH"
         const val ACTION_MIDNIGHT = "com.igorbarros.glanceclima.MIDNIGHT"
-        private const val STALE_MS = 25 * 60 * 1000L
+        private const val STALE_MS = 4 * 60 * 1000L
 
         private fun component(context: Context) = ComponentName(context, GlanceWidgetProvider::class.java)
 
